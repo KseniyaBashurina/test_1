@@ -19,4 +19,4 @@ def test_list_users():
         with allure.step("Проверяем элемент из списка"):
             validate(item, USER_DATA_SCHEME)
             with allure.step("Проверяем окончания email адреса"):
-                assert item['email'].endswith(EMAIL_ENDS)
+                assert item['email'].endswith(EMAIL_ENDS)git
